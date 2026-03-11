@@ -7,7 +7,11 @@ Standard spatial contiguity models often leave significant portions of island na
 
 ## Key Features
 
-<img src="Connectivity_Comparison.png" align="center" height="300" />
+<p align="center">
+  <img src="Connectivity_Comparison.png" alt="ArchipelagoEngine Connectivity Comparison" width="600">
+  <br>
+  <b>Figure 1:</b> <i>Standard Queen Logic (Left) vs. ArchipelagoEngine k=5 (Right)</i>
+</p>
 
 **100% Connectivity**: Ensures no island units are mathematically "orphaned."
 
