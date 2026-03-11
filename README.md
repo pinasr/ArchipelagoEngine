@@ -6,6 +6,8 @@ Standard spatial contiguity models often leave significant portions of island na
 `ArchipelagoEngine` implements specialized K-Nearest Neighbor (KNN) logic to bridge these fragmented maritime networks. By enforcing a unified grid (optimized at $k=5$ using the Philippines as case study), the engine achieves 100% network connectivity and neutralizes spatial bias, enabling robust econometric inference for fragmented topographies, public health mapping, among other applications.
 
 ## Key Features
+
+<img src="Connectivity_Comparison.png" align="right" height="100" />
 * **100% Connectivity**: Ensures no island units are mathematically "orphaned."
 * **Bias Neutralization**: Reduces Moran’s I to approximately 0 ($p > 0.10$) to stabilize spatial spillovers.
 * **Structural Robustness**: Prioritizes structural integrity and randomized residuals over superficial model fit.
