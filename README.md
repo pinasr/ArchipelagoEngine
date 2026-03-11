@@ -8,7 +8,7 @@ Standard spatial contiguity models often leave significant portions of island na
 ## Key Features
 
 <p align="center">
-  <img src="Connectivity_Comparison.png" alt="ArchipelagoEngine Connectivity Comparison" width="600">
+  <img src="Connectivity_Comparison.png" alt="ArchipelagoEngine Connectivity Comparison" width="400">
   <br>
   <b>Figure 1:</b> <i>Standard Queen Logic (Left) vs. ArchipelagoEngine k=5 (Right)</i>
 </p>
@@ -16,7 +16,7 @@ Standard spatial contiguity models often leave significant portions of island na
 **100% Connectivity**: Ensures no island units are mathematically "orphaned."
 
 <p align="center">
-  <img src="Spatial_Lag.png" alt="ArchipelagoEngine Connectivity Comparison" width="600">
+  <img src="Spatial_Lag.png" alt="ArchipelagoEngine Connectivity Comparison" width="400">
   <br>
   <b>Figure 2:</b> <i>Spatial Lag Visualization. Left: Queen Logic results in "Data Gaps" (white areas) due to $nc=23$. Right: ArchipelagoEngine enforces a unified signal flow across all 81 provinces ($nc=1$).</i>
 </p>
