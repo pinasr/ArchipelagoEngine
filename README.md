@@ -7,7 +7,8 @@ Standard spatial contiguity models often leave significant portions of island na
 
 ## Key Features
 
-<img src="Connectivity_Comparison.png" align="right" height="100" />
+<img src="Connectivity_Comparison.png" align="center" height="80" />
+
 * **100% Connectivity**: Ensures no island units are mathematically "orphaned."
 * **Bias Neutralization**: Reduces Moran’s I to approximately 0 ($p > 0.10$) to stabilize spatial spillovers.
 * **Structural Robustness**: Prioritizes structural integrity and randomized residuals over superficial model fit.
