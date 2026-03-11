@@ -15,6 +15,12 @@ Standard spatial contiguity models often leave significant portions of island na
 
 **100% Connectivity**: Ensures no island units are mathematically "orphaned."
 
+<p align="center">
+  <img src="Spatial_Lag.png" alt="ArchipelagoEngine Connectivity Comparison" width="600">
+  <br>
+  <b>Figure 2:</b> <i>Spatial Lag Visualization. Left: Queen Logic results in "Data Gaps" (white areas) due to $nc=23$. Right: ArchipelagoEngine enforces a unified signal flow across all 81 provinces ($nc=1$).</i>
+</p>
+
 **Bias Neutralization**: Reduces Moran’s I to approximately 0 ($p > 0.10$) to stabilize spatial spillovers.
 
 **Structural Robustness**: Prioritizes structural integrity and randomized residuals over superficial model fit.
