@@ -33,7 +33,10 @@ spdep::n.comp.nb(weights$neighbours)$nc
 ```
 ## Research Roadmap
 v0.1.1 (Current): Established topological baselines for fragmented islands.
-Active Development: Transitioning from static to dynamic modeling by integrating scraped AIS (Automatic Identification System) satellite data.Field Calibration: Currently ground-truthing maritime friction variables against real-world bottlenecks and monsoons at the Port of Cebu.
+
+Active Development: Transitioning from static to dynamic modeling by integrating scraped AIS (Automatic Identification System) satellite data.
+
+Field Calibration: Currently ground-truthing maritime friction variables against real-world bottlenecks and monsoons at the Port of Cebu.
 
 ## Documentation
-For a deep dive into the underlying methodology—including applications of Anselin (1988) and LeSage and Pace (2009)—refer to [the Package Manual: ](https://www.r-pkg.org/pkg/ArchipelagoEngine)
+For a deep dive into the underlying methodology—including applications of Anselin (1988) and LeSage and Pace (2009)—refer to [Package Manual](https://www.r-pkg.org/pkg/ArchipelagoEngine)
