@@ -54,3 +54,8 @@ Field Calibration: Currently ground-truthing maritime friction variables against
 
 ## Documentation
 For a deep dive into the underlying methodology—including applications of Anselin (1988) and LeSage and Pace (2009)—refer to [Package Manual](https://www.r-pkg.org/pkg/ArchipelagoEngine)
+
+## Citation
+If you use this engine in your works, please cite:
+
+Talingting N (2026). ArchipelagoEngine: Spatial Weight Construction for Archipelagic Geographies. R package version 0.1.1, https://CRAN.R-project.org/package=ArchipelagoEngine.
