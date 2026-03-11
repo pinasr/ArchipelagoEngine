@@ -58,4 +58,7 @@ For a deep dive into the underlying methodology—including applications of Anse
 ## Citation
 If you use this engine in your works, please cite:
 
-Talingting N (2026). ArchipelagoEngine: Spatial Weight Construction for Archipelagic Geographies. R package version 0.1.1, https://CRAN.R-project.org/package=ArchipelagoEngine.
+Talingting N (2026). _ArchipelagoEngine: Spatial Weight Construction for
+  Archipelagic Geographies_. doi:10.32614/CRAN.package.ArchipelagoEngine
+  <https://doi.org/10.32614/CRAN.package.ArchipelagoEngine>, R package version
+  0.1.1, <https://CRAN.R-project.org/package=ArchipelagoEngine>.
