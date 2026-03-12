@@ -142,7 +142,7 @@ S_knn <- spdep::n.comp.nb(w_knn$neighbours)
                 <section id="implications">
                     <h2>Implications</h2>
                     <p>We conclude that Queen-contiguity is invalid for Philippine national policy analysis. Using a fragmented <span class="math-italic">W</span> matrix to distribute 10 billion pesos appropriation results in "geographic exclusion." By enforcing 100% connectivity, we ensure that spatial spillovers—and the resulting policy interventions—are mathematically representative of the entire nation.</p>
-                    <p>Furthermore, the transition from a disjoint Queen-matrix to a connected KNN-matrix ensures that the <strong>spectral radius</strong> of <span class="math-italic">W</span> is well-behaved ($\rho(W) = 1$), allowing for stable maximum likelihood estimation of the spatial autoregressive parameter $\lambda$. Specifically, by ensuring a single connected component (<span class="math-italic">nc</span> = 1), we guarantee that the Jacobian term $\ln|I - \lambda W|$ in the log-likelihood function is monotonic and well-defined over the feasible range of $\lambda$.</p>
+                    <p>Furthermore, the transition from a disjoint Queen-matrix to a connected KNN-matrix ensures that the <strong>spectral radius</strong> of <span class="math-italic">W</span> is well-behaved ($\rho(<span class="math-italic">W</span>) = 1$), allowing for stable maximum likelihood estimation of the spatial autoregressive parameter <span class="math-italic">&lambda;</span>. Specifically, by ensuring a single connected component (<span class="math-italic">nc</span> = 1), we guarantee that the Jacobian term $\ln|<span class="math-italic">I</span> - <span class="math-italic">&lambda;</span> <span class="math-italic">W</span>|$ in the log-likelihood function is monotonic and well-defined over the feasible range of <span class="math-italic">&lambda;</span>.</p>
                 </section>
 
                 <section id="references" class="pb-5">
@@ -166,7 +166,7 @@ S_knn <- spdep::n.comp.nb(w_knn$neighbours)
                     </p>
                 </div>
                 <div class="mt-4 text-center">
-                </div>
+                    </div>
             </aside>
         </div>
     </div>
