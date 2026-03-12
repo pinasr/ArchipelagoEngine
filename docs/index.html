@@ -12,25 +12,38 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     
-    <script src="pkgdown.js"></script>
-    
     <style>
-        body { padding-top: 80px; line-height: 1.6; color: #333; background-color: #fff; }
-        .navbar { border-bottom: 1px solid #e5e5e5; box-shadow: 0 2px 4px rgba(0,0,0,.05); }
-        .page-header { margin-top: 0; border-bottom: 2px solid #f5f5f5; padding-bottom: 20px; margin-bottom: 30px; }
-        pre { background: #f8f9fa; padding: 15px; border-radius: 5px; border: 1px solid #e9ecef; overflow-x: auto; }
-        code { color: #d63384; font-family: 'SFMono-Regular', Consolas, monospace; font-size: 0.9em; }
-        .img-center-cap { text-align: center; margin: 2rem 0; background: #fafafa; padding: 20px; border-radius: 8px; }
-        .section { margin-bottom: 3rem; }
-        /* Italicize coefficients specifically */
-        .coeff { font-style: italic; font-family: "Times New Roman", serif; }
+        /* Dark Blue Professional Theme */
+        :root { --brand-blue: #002147; }
+        body { padding-top: 90px; line-height: 1.7; color: #2d3436; background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        .bg-primary { background-color: var(--brand-blue) !important; }
+        .navbar { box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .nav-link { color: rgba(255,255,255,0.85) !important; font-weight: 500; }
+        .nav-link:hover { color: #ffffff !important; }
+        
+        /* Typography & Math Fixes */
+        .math-italic { font-style: italic; font-family: "Times New Roman", serif; font-weight: 600; }
+        .page-header { border-bottom: 3px solid #f0f2f5; padding-bottom: 1.5rem; margin-bottom: 2rem; }
+        h1, h2, h3 { color: var(--brand-blue); font-weight: 700; }
+        
+        /* Code & Blocks */
+        pre { background: #f8f9fa; padding: 1.5rem; border-radius: 8px; border: 1px solid #e9ecef; position: relative; }
+        code { color: #d63384; font-family: 'SFMono-Regular', Menlo, monospace; font-size: 0.9em; }
+        
+        /* Images & Figures */
+        .figure-box { text-align: center; margin: 2.5rem 0; padding: 20px; background: #fafafa; border-radius: 12px; border: 1px solid #eee; }
+        .img-fluid { border-radius: 4px; }
+        
+        /* Sidebar */
+        .card { border: none; background: #fdfdfd; border-left: 4px solid var(--brand-blue); box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
     </style>
 </head>
 <body>
+
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand me-2" href="index.html">ArchipelagoEngine</a>
-            <small class="nav-text text-white-50 me-auto">0.1.1</small>
+            <a class="navbar-brand fw-bold" href="index.html">ArchipelagoEngine</a>
+            <small class="text-white-50 ms-2">v0.1.1</small>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -47,37 +60,42 @@
         <div class="row">
             <main id="main" class="col-md-9">
                 <div class="page-header">
-                    <h1>ArchipelagoEngine <img src="reference/figures/ArchipelagoEngine.png" align="right" width="120" style="float: right;"></h1>
+                    <h1>ArchipelagoEngine <img src="reference/figures/ArchipelagoEngine.png" align="right" width="120" style="float: right;" alt="Logo"></h1>
                 </div>
 
-                <p><a href="https://cran.r-project.org/package=ArchipelagoEngine"><img src="https://www.r-pkg.org/badges/version/ArchipelagoEngine" alt="CRAN Status"></a></p>
+                <p><a href="https://cran.r-project.org/package=ArchipelagoEngine"><img src="https://www.r-pkg.org/badges/version/ArchipelagoEngine" alt="CRAN"></a></p>
 
-                <p>Standard spatial contiguity models often leave significant portions of island nations mathematically isolated. In the Philippine context, standard Queen logic leaves 16 provinces (approx. 20%) orphaned, resulting in a fragmented network with only 80.2% connectivity. This fragmentation introduces systematic predictive bias and significant residual spatial autocorrelation (e.g., Moran’s <span class="coeff">I</span> = 0.024, <span class="coeff">p</span> < 0.05 for ‘palay’ price in the Philippines).</p>
+                <p>Standard spatial contiguity models often leave significant portions of island nations mathematically isolated. In the Philippine context, standard Queen logic leaves 16 provinces (approx. 20%) orphaned, resulting in a fragmented network with only 80.2% connectivity. This fragmentation introduces systematic predictive bias and significant residual spatial autocorrelation (e.g., Moran's <span class="math-italic">I</span>=0.024, <span class="math-italic">p</span>&lt;0.05 for 'palay' price in the Philippines).</p>
 
-                <p><code>ArchipelagoEngine</code> implements specialized K-Nearest Neighbor (KNN) logic to bridge these fragmented maritime networks. By enforcing a unified grid (optimized at <span class="coeff">k</span> = 5 using the Philippines as case study), the engine achieves 100% network connectivity and neutralizes spatial bias, enabling robust econometric inference for fragmented topographies, public health mapping, among other applications.</p>
+                <p><code>ArchipelagoEngine</code> implements specialized K-Nearest Neighbor (KNN) logic to bridge these fragmented maritime networks. By enforcing a unified grid (optimized at <span class="math-italic">k</span>=5 using the Philippines as case study), the engine achieves 100% network connectivity and neutralizes spatial bias, enabling robust econometric inference.</p>
 
-                <div class="section">
+                <section id="features">
                     <h2>Key Features</h2>
-                    <div class="img-center-cap border">
-                        <img src="reference/figures/Connectivity_Comparison.png" alt="ArchipelagoEngine Connectivity Comparison" width="500" class="img-fluid mb-2">
-                        <br><b>Figure 1:</b> <i>Standard Queen Logic (Left) vs. ArchipelagoEngine <span class="coeff">k</span>=5 (Right)</i>
+                    <div class="figure-box">
+                        <img src="reference/figures/Connectivity_Comparison.png" alt="Connectivity Comparison" width="450" class="img-fluid border shadow-sm">
+                        <p class="mt-3 mb-0"><b>Figure 1:</b> <i>Standard Queen Logic (Left) vs. ArchipelagoEngine <span class="math-italic">k</span>=5 (Right)</i></p>
                     </div>
                     <ul>
-                        <li><strong>100% Connectivity</strong>: Ensures no island units are mathematically “orphaned.”</li>
-                        <li><strong>Bias Neutralization</strong>: Reduces Moran’s <span class="coeff">I</span> to approximately 0 (<span class="coeff">p</span> > 0.10) to stabilize spatial spillovers.</li>
-                        <li><strong>Structural Robustness</strong>: Prioritizes structural integrity and randomized residuals over superficial model fit.</li>
-                        <li><strong>CRAN Verified</strong>: Fully compatible with standard spatial regression workflows using <code>sf</code> and <code>spdep</code>.</li>
+                        <li><strong>100% Connectivity</strong>: Ensures no island units are mathematically "orphaned."</li>
+                        <li><strong>Bias Neutralization</strong>: Reduces Moran’s <span class="math-italic">I</span> to approximately 0 (<span class="math-italic">p</span> > 0.10) to stabilize spatial spillovers.</li>
+                        <li><strong>Structural Robustness</strong>: Prioritizes structural integrity over superficial model fit.</li>
+                        <li><strong>CRAN Verified</strong>: Compatible with <code>sf</code> and <code>spdep</code>.</li>
                     </ul>
-                </div>
+                </section>
 
-                <div class="section">
+                <section id="installation">
+                    <h2>Installation</h2>
+                    <pre><code>install.packages("ArchipelagoEngine")</code></pre>
+                </section>
+
+                <section id="quickstart">
                     <h2>Quick Start</h2>
-                    <pre><code># Install from CRAN
-install.packages("ArchipelagoEngine")
-
-library(ArchipelagoEngine)
+                    <pre><code>library(ArchipelagoEngine)
 library(sf)
 library(spdep)
+
+# Load the benchmark map
+data(raw_data)
 
 # Calculate the new network based on the k=5 logic
 weights <- build_archipelago_weight(raw_data, k = 5)
@@ -85,31 +103,41 @@ weights <- build_archipelago_weight(raw_data, k = 5)
 # Verify 100% connectivity
 connectivity_status <- spdep::n.comp.nb(weights$neighbours)$nc
 print(connectivity_status)</code></pre>
-                </div>
+                </section>
 
-                <div class="section">
-                    <h2>Research Roadmap</h2>
-                    <p><strong>v0.1.1 (Current)</strong>: Established topological baselines for fragmented islands.</p>
-                    <p><strong>Active Development</strong>: Transitioning from static to dynamic modeling by integrating scraped AIS (Automatic Identification System) satellite data.</p>
-                </div>
+                <section id="theory">
+                    <h2>Theoretical Grounding</h2>
+                    <p>While Anselin (1988) notes that weight matrix misspecification leads to biased estimators, LeSage and Pace (2009) emphasize the necessity of complete spatial weights to capture global spillovers.</p>
+                </section>
+
+                <section id="citation" class="pb-5">
+                    <h2>Citation</h2>
+                    <p class="small text-muted">Talingting N (2026). <i>ArchipelagoEngine: Spatial Weight Construction for Archipelagic Geographies</i>. doi:10.32614/CRAN.package.ArchipelagoEngine</p>
+                </section>
             </main>
 
             <aside class="col-md-3">
-                <div class="card shadow-sm">
+                <div class="card mb-4">
                     <div class="card-body">
-                        <h5 class="card-title">Project Links</h5>
+                        <h6 class="text-uppercase text-muted small fw-bold">Resources</h6>
                         <ul class="list-unstyled mb-0">
-                            <li class="mb-2"><a href="https://cloud.r-project.org/package=ArchipelagoEngine" class="text-decoration-none"><i class="fa fa-box me-2"></i>View on CRAN</a></li>
-                            <li><a href="LICENSE.html" class="text-decoration-none"><i class="fa fa-file-contract me-2"></i>License (MIT)</a></li>
+                            <li class="mb-2"><a href="https://cloud.r-project.org/package=ArchipelagoEngine" class="text-decoration-none text-primary"><i class="fa fa-external-link-alt me-2"></i>CRAN Repository</a></li>
+                            <li><a href="LICENSE.html" class="text-decoration-none text-primary"><i class="fa fa-gavel me-2"></i>MIT License</a></li>
                         </ul>
                     </div>
+                </div>
+                <div class="card p-3">
+                    <h6 class="text-uppercase text-muted small fw-bold">Maintainer</h6>
+                    <p class="mb-0"><strong>NJ Talingting</strong></p>
                 </div>
             </aside>
         </div>
     </div>
 
-    <footer class="container mt-5 py-4 border-top text-center text-muted">
-        <p>Developed by <strong>NJ Talingting</strong>. Built with pkgdown 2.2.0.</p>
+    <footer class="bg-light py-5 mt-5 border-top">
+        <div class="container text-center">
+            <p class="text-muted mb-0">Developed by NJ Talingting. Built for 10-Billion Peso Audit compliance.</p>
+        </div>
     </footer>
 </body>
 </html>
