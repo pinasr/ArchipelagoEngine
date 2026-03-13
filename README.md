@@ -1,4 +1,5 @@
 <img src="man/figures/badge.png" align="right" height="139" style="float: right; margin-left: 10px;" />
+
 [![](https://www.r-pkg.org/badges/version/ArchipelagoEngine)](https://cran.r-project.org/package=ArchipelagoEngine)
 
 ## ArchipelagoEngine
