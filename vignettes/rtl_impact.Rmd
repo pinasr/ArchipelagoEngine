@@ -76,6 +76,8 @@ that the Jacobian term $\ln|I - \lambda W|$ in the log-likelihood function is
 monotonic and well-defined over the feasible range of $\lambda$.
 
 ## References
-Anselin, L. (1988). Spatial Econometrics: Methods and Models.
-LeSage, J., & Pace, R. K. (2009). Introduction to Spatial Econometrics. 
-Bivand, R. S., & Wong, D. W. (2018). "Comparing methods for isolating units of spatial autocorrelation."
+**Anselin, L. (1988).** Spatial Econometrics: Methods and Models.
+
+**LeSage, J., & Pace, R. K. (2009).** Introduction to Spatial Econometrics.
+
+**Bivand, R. S., & Wong, D. W. (2018).** "Comparing methods for isolating units of spatial autocorrelation."
