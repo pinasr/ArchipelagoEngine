@@ -89,3 +89,5 @@ monotonic and well-defined over the feasible range of $\lambda$.
 **LeSage, J., & Pace, R. K. (2009).** Introduction to Spatial Econometrics.
 
 **Bivand, R. S., & Wong, D. W. (2018).** "Comparing methods for isolating units of spatial autocorrelation."
+
+<a rel="me" href="https://mastodon.social/@njtalingting" style="display:none;">Mastodon</a> 
