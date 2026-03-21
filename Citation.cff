@@ -3,8 +3,8 @@ message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Talingting"
   given-names: "NJ"
-title: "ArchipelagoEngine: High-Performance Spatial Econometrics for Fragmented Topographies"
+title: "ArchipelagoEngine: Spatial Weight Construction for Archipelagic Geographies"
 version: 0.1.1
 doi: 10.32614/CRAN.package.ArchipelagoEngine
-date-released: 2024-05-20
+date-released: 2026-03-10
 url: "https://github.com/nj-talingting/ArchipelagoEngine"
