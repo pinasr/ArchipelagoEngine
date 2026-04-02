@@ -4,6 +4,11 @@
 [![](https://cranlogs.r-pkg.org/badges/last-month/ArchipelagoEngine)](https://cran.r-project.org/package=ArchipelagoEngine)
 [![](https://njtalingting.r-universe.dev/badge/runiverse)](https://njtalingting.r-universe.dev/)
 [![RWeekly Academia](https://img.shields.io/badge/Featured%20in-RWeekly%202026--W12-blue?logo=r&logoColor=white)](https://rweekly.org/2026-W12.html)
+[![](https://cranchecks.info/badges/summary/ArchipelagoEngine)](https://cranchecks.info/pkgs/ArchipelagoEngine)
+[![](https://njtalingting.r-universe.dev/badge/runiverse)](https://njtalingting.r-universe.dev/)
+[![](https://github.com/njtalingting/ArchipelagoEngine/workflows/R-CMD-check/badge.svg)](https://github.com/njtalingting/ArchipelagoEngine/actions)
+[![](https://codecov.io/gh/njtalingting/ArchipelagoEngine/branch/main/graph/badge.svg)](https://codecov.io/gh/njtalingting/ArchipelagoEngine)
+[![](https://img.shields.io/badge/license-GPL--3-blue.svg)](https://cran.r-project.org/package=ArchipelagoEngine)
 
 ## ArchipelagoEngine
 Standard spatial contiguity models often leave significant portions of island nations mathematically isolated. In the Philippine context, standard Queen logic leaves 16 provinces (approx. 20%) orphaned, resulting in a fragmented network with only 80.2% connectivity. This fragmentation introduces systematic predictive bias and significant residual spatial autocorrelation (e.g., Moran's $I=0.024$, $p<0.05$ for 'palay' price in the Philippines).
