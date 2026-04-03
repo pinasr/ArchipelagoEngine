@@ -1,7 +1,8 @@
 <img src="man/figures/badge.png" align="right" height="100" style="float: right; margin-left: 10px; max-width: 30%; height: auto;" />
 
 [![CRAN status](https://www.r-pkg.org/badges/version/ArchipelagoEngine)](https://CRAN.R-project.org/package=ArchipelagoEngine)
-[![CRAN checks](https://badges.cranchecks.info/worst/ArchipelagoEngine.svg)](https://cranchecks.info/pkgs/ArchipelagoEngine)[![R-Universe status]([![registry status badge](https://njtalingting.r-universe.dev/badges/:registry)](https://njtalingting.r-universe.dev/)
+[![CRAN checks](https://badges.cranchecks.info/worst/ArchipelagoEngine.svg)](https://cranchecks.info/pkgs/ArchipelagoEngine)
+[![R-Universe status]([![registry status badge](https://njtalingting.r-universe.dev/badges/:registry)](https://njtalingting.r-universe.dev/)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![codecov](https://codecov.io/gh/njtalingting/ArchipelagoEngine/branch/main/graph/badge.svg)](https://app.codecov.io/gh/njtalingting/ArchipelagoEngine)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
