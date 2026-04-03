@@ -64,13 +64,6 @@ plot(weights$neighbours, st_coordinates(st_centroid(raw_data)),
 mtext(paste("Status: 100% Connectivity Achieved (nc =", connectivity_status, ")"), 
       side = 1, line = 1, adj = 0.5, cex = 0.9, font = 1, col = "#2C3E50")
 ```
-## Research Roadmap
-**v0.1.1 (Current)**: Established topological baselines for fragmented islands.
-
-**Active Development**: Transitioning from static to dynamic modeling by integrating scraped AIS (Automatic Identification System) satellite data.
-
-**Field Calibration**: Currently ground-truthing maritime friction variables against real-world bottlenecks and monsoons at the Port of Cebu.
-
 ## Documentation
 For a deep dive into the underlying methodology— including applications of Anselin (1988) and LeSage and Pace (2009)— refer to [Case Study.](https://njtalingting.r-universe.dev/articles/ArchipelagoEngine/rtl_impact.html)
 
@@ -82,16 +75,13 @@ spatial weights to capture global spillovers. This engine bridges the gap betwee
 classical theories and fragmented maritime realities.
 
 ## Citation
-If you've used ArchipelagoEngine in your works, please cite:
-
-Talingting N (2026). _ArchipelagoEngine: Spatial Weight Construction for
-  Archipelagic Geographies_. doi:10.32614/CRAN.package.ArchipelagoEngine
-  <https://doi.org/10.32614/CRAN.package.ArchipelagoEngine>, R package version
-  0.1.1, <https://CRAN.R-project.org/package=ArchipelagoEngine
+To cite package ‘ArchipelagoEngine’ in publications use:
+Talingting N (2026). ArchipelagoEngine: Spatial Weight Construction for Archipelagic Geographies. R package version 0.1.1, https://github.com/njtalingting/archipelagoengine.
   
 ## References
-Anselin, L. (1988). Spatial Econometrics: Methods and Models.
-LeSage, J., & Pace, R. K. (2009). Introduction to Spatial Econometrics. 
-Bivand, R. S., & Wong, D. W. (2018). "Comparing methods for isolating units of spatial autocorrelation."
+Anselin, L. (1988). $Spatial Econometrics: Methods and Models.$
+LeSage, J., & Pace, R. K. (2009). $Introduction to Spatial Econometrics.$ 
+Bivand, R. S., & Wong, D. W. (2018). $"Comparing methods for isolating units of spatial autocorrelation."$
+
 
 <a rel="me" href="https://mastodon.social/@njtalingting">Mastodon</a>
