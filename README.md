@@ -80,11 +80,11 @@ To cite package ‘ArchipelagoEngine’ in publications use:
 Talingting N (2026). ArchipelagoEngine: Spatial Weight Construction for Archipelagic Geographies. R package version 0.1.1, https://github.com/njtalingting/archipelagoengine.
   
 ## References
-Anselin, L. (1988). $ Spatial Econometrics: Methods and Models. $
+Anselin, L. (1988). $Spatial  Econometrics:  Methods  and  Models.$
 
-LeSage, J., & Pace, R. K. (2009). $ Introduction to Spatial Econometrics. $ 
+LeSage, J., & Pace, R. K. (2009). $ Introduction  to  Spatial  Econometrics. $ 
 
-Bivand, R. S., & Wong, D. W. (2018). $ "Comparing methods for isolating units of spatial autocorrelation." $
+Bivand, R. S., & Wong, D. W. (2018). $ "Comparing  methods  for  isolating  units  of  spatial  autocorrelation." $
 
 
 <a rel="me" href="https://mastodon.social/@njtalingting">Mastodon</a>
