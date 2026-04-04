@@ -11,8 +11,8 @@
 [![articles status badge](https://njtalingting.r-universe.dev/badges/:articles)](https://njtalingting.r-universe.dev/articles)
 [![Featured in RWeekly](https://img.shields.io/badge/Featured%20in-RWeekly%202026--W12-blue?logo=r&logoColor=white)](https://rweekly.org/2026-W12.html)
 [![DOI](https://img.shields.io/badge/DOI-10.32614/CRAN.package.ArchipelagoEngine-blue.svg)](https://doi.org/10.32614/CRAN.package.ArchipelagoEngine)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0003--7245--874X-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-7245-874X)
 [![name status badge](https://njtalingting.r-universe.dev/badges/:name)](https://njtalingting.r-universe.dev/)
-[![DOI](https://img.shields.io/badge/DOI-10.32614/CRAN.package.ArchipelagoEngine-blue.svg)](https://doi.org/10.32614/CRAN.package.ArchipelagoEngine)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
