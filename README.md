@@ -3,13 +3,13 @@
 
 [![CRAN status](https://www.r-pkg.org/badges/version/ArchipelagoEngine)](https://CRAN.R-project.org/package=ArchipelagoEngine)
 [![CRAN checks](https://badges.cranchecks.info/worst/ArchipelagoEngine.svg)](https://cranchecks.info/pkgs/ArchipelagoEngine)
-[![DOI](https://img.shields.io/badge/DOI-10.32614/CRAN.package.ArchipelagoEngine-blue.svg)](https://doi.org/10.32614/CRAN.package.ArchipelagoEngine)
-[![name status badge](https://njtalingting.r-universe.dev/badges/:name)](https://njtalingting.r-universe.dev/)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![codecov](https://codecov.io/gh/njtalingting/ArchipelagoEngine/branch/main/graph/badge.svg)](https://app.codecov.io/gh/njtalingting/ArchipelagoEngine)
 [![registry status badge](https://njtalingting.r-universe.dev/badges/:registry)](https://njtalingting.r-universe.dev/)[![CRAN downloads](https://cranlogs.r-pkg.org/badges/last-month/ArchipelagoEngine)](https://cran.r-project.org/package=ArchipelagoEngine)
 [![articles status badge](https://njtalingting.r-universe.dev/badges/:articles)](https://njtalingting.r-universe.dev/articles)
 [![Featured in RWeekly](https://img.shields.io/badge/Featured%20in-RWeekly%202026--W12-blue?logo=r&logoColor=white)](https://rweekly.org/2026-W12.html)
+[![DOI](https://img.shields.io/badge/DOI-10.32614/CRAN.package.ArchipelagoEngine-blue.svg)](https://doi.org/10.32614/CRAN.package.ArchipelagoEngine)
+[![name status badge](https://njtalingting.r-universe.dev/badges/:name)](https://njtalingting.r-universe.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
