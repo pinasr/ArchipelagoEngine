@@ -7,7 +7,7 @@
 [![codecov](https://codecov.io/gh/njtalingting/ArchipelagoEngine/branch/main/graph/badge.svg)](https://app.codecov.io/gh/njtalingting/ArchipelagoEngine)
 [![registry status badge](https://njtalingting.r-universe.dev/badges/:registry)](https://njtalingting.r-universe.dev/)[![CRAN downloads](https://cranlogs.r-pkg.org/badges/last-month/ArchipelagoEngine)](https://cran.r-project.org/package=ArchipelagoEngine)
 [![R-CMD-check](https://github.com/njtalingting/ArchipelagoEngine/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/njtalingting/ArchipelagoEngine/actions/workflows/R-CMD-check.yaml)
-[![Test Coverage](https://codecov.io/gh/njtalingting/ArchipelagoEngine/branch/main/graph/badge.svg)](https://codecov.io/gh/njtalingting/ArchipelagoEngine)
+[![Test Coverage](https://codecov.io/gh/njtalingting/ArchipelagoEngine/branch/main/graph/badge.svg?token=[YOUR_TOKEN_HERE])](https://codecov.io/gh/njtalingting/ArchipelagoEngine)
 [![articles status badge](https://njtalingting.r-universe.dev/badges/:articles)](https://njtalingting.r-universe.dev/articles)
 [![Featured in RWeekly](https://img.shields.io/badge/Featured%20in-RWeekly%202026--W12-blue?logo=r&logoColor=white)](https://rweekly.org/2026-W12.html)
 [![DOI](https://img.shields.io/badge/DOI-10.32614/CRAN.package.ArchipelagoEngine-blue.svg)](https://doi.org/10.32614/CRAN.package.ArchipelagoEngine)
