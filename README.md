@@ -14,10 +14,11 @@
 [![name status badge](https://njtalingting.r-universe.dev/badges/:name)](https://njtalingting.r-universe.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Overview
-Standard spatial contiguity models often leave significant portions of island nations mathematically isolated. In the Philippine context, standard Queen logic leaves 23 provinces (approx. 28%) orphaned, resulting in a fragmented network with only 80.2% connectivity. This fragmentation introduces systematic predictive bias and significant residual spatial autocorrelation (e.g., Moran's $I=0.024$, $p<0.05$ for 'palay' price in the Philippines).
 
-`ArchipelagoEngine` implements specialized K-Nearest Neighbor (KNN) logic to bridge these fragmented maritime networks. By enforcing a unified grid (optimized at $k=5$ using the Philippines as case study), the engine achieves 100% network connectivity and neutralizes spatial bias, enabling robust econometric inference for fragmented topographies, public health mapping, among other applications.
+## Overview
+Standard spatial contiguity models often leave significant portions of island nations mathematically isolated. In the Philippine context, standard Queen logic leaves 23 provinces (approx. 28%) orphaned, resulting in a fragmented network with only approximately 72% connectivity. This fragmentation introduces systematic predictive bias and significant residual spatial autocorrelation (e.g., Moran's I=0.024, p<0.05 for 'palay' price in the Philippines).
+
+`ArchipelagoEngine` implements specialized K-Nearest Neighbor (KNN) logic to bridge these fragmented maritime networks. By enforcing a unified grid (optimized at k=5 using the Philippines as case study), the engine achieves 100% network connectivity and neutralizes spatial bias, enabling robust econometric inference for fragmented topographies, public health mapping, among other applications.
 
 ## Key Features
 <p align="center">
@@ -26,9 +27,9 @@ Standard spatial contiguity models often leave significant portions of island na
   <b>Figure 1:</b> <i>Standard Queen Logic (Left) vs. ArchipelagoEngine k=5 (Right)</i>
 </p>
 
-**100% Connectivity**: Ensures no island units are mathematically "orphaned."
+**100% Connectivity**: Ensures no island units are mathematically isolated.
 
-**Bias Neutralization**: Reduces Moran’s I to approximately 0 ($p > 0.10$) to stabilize spatial spillovers.
+**Bias Neutralization**: Reduces Moran’s I to approximately 0 (p > 0.10) to stabilize spatial spillovers.
 
 **Structural Robustness**: Prioritizes structural integrity and randomized residuals over superficial model fit.
 
