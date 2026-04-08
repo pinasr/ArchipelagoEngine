@@ -1,4 +1,4 @@
-<img src="man/archipelagoenginehex.png" align="right" height="139" />
+<img src="man/archipelagoenginehex.png" align="right" height="200" />
 
 # ArchipelagoEngine: Spatial Weight Construction for Archipelagic Topographies
 
