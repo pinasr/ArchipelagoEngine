@@ -1,3 +1,5 @@
+<img src="man/figures/archipelagoenginehex.png" align="right" height="139" />
+
 # ArchipelagoEngine: Spatial Weight Construction for Archipelagic Topographies
 
 [![CRAN status](https://www.r-pkg.org/badges/version/ArchipelagoEngine)](https://CRAN.R-project.org/package=ArchipelagoEngine)
