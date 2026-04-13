@@ -8,7 +8,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![CRAN checks](https://badges.cranchecks.info/worst/ArchipelagoEngine.svg)](https://cranchecks.info/pkgs/ArchipelagoEngine)
 [![R-CMD-check](https://github.com/njtalingting/ArchipelagoEngine/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/njtalingting/ArchipelagoEngine/actions/workflows/R-CMD-check.yaml)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0003--7245--874X-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-7245-874X)
 [![codecov](https://codecov.io/gh/njtalingting/ArchipelagoEngine/graph/badge.svg?token=IKR0RKJQ86)](https://codecov.io/gh/njtalingting/ArchipelagoEngine)
 
 ## Overview
