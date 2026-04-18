@@ -19,9 +19,8 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.3
-URL: https://github.com/njtalingting/ArchipelagoEngine,
-    https://njtalingting.github.io/ArchipelagoEngine/
-BugReports: https://github.com/njtalingting/ArchipelagoEngine/issues
+URL: https://github.com/pinasr/ArchipelagoEngine, https://njtalingting.r-universe.dev/ArchipelagoEngine
+BugReports: https://github.com/pinasr/ArchipelagoEngine/issues
 Depends: 
     R (>= 3.5)
 Imports: 
