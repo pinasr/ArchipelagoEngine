@@ -1,5 +1,5 @@
 ---
-title: "Addressing a Decade-Old 'Continental Fallacy' in Spatial Econometrics"
+title: "Addressing a Decade-Old 'Continental Fallacy' in Spatial Statistics"
 author: "NJ Talingting"
 date: "`r Sys.Date()`"
 output: 
