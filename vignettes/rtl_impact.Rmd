@@ -22,7 +22,7 @@ vignette: >
 
 # Introduction: The Problem of Matrix Rank
 
-In spatial econometrics, the Weight Matrix ($W$) is the fundamental operator for capturing spillovers. However, in archipelagic topographies like the Philippines, the standard Queen-contiguity operator fails to satisfy the condition of a connected graph.
+The Weight Matrix ($W$) is the fundamental operator for capturing spillovers. However, in archipelagic topographies like the Philippines, the standard Queen-contiguity operator fails to satisfy the condition of a connected graph.
 
 When $nc > 1$ (the number of disjoint components), the spatial weights matrix is technically a block-diagonal matrix where certain blocks (isolated provinces like Batanes) have zero probability of interaction. This violates the assumption of a unified spatial process.
 
