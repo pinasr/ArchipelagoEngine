@@ -36,5 +36,5 @@ Suggests:
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 X-schema.org-keywords: spatial-econometrics, archipelago, connectivity, Rcpp, 
-    philippines, maritime-logistics, island
+    philippines, maritime-logistics, island 
  
